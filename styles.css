@@ -1,0 +1,129 @@
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: auto;
+  margin-top: auto;
+  padding: 0%;
+  padding-top: 0%;
+}
+
+:root {
+  font-family: "DotGothic16", sans-serif;
+}
+
+.header_banner {
+  background-image: url(https://thumbs.dreamstime.com/b/%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B9-%D0%BB%D1%83%D0%B3-%D0%BB%D0%B5%D1%82%D0%BE%D0%BC-%D0%B8%D0%BB%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D0%BE%D0%B9-%D1%81-%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D1%8B%D0%BC%D0%B8-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BC%D0%B8-%D0%BD%D0%B5%D0%B7%D0%B0%D0%B1%D1%83%D0%B4%D0%BE%D0%BA-%D0%BB%D0%B5%D1%82%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-182636005.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.header {
+  background-color: whitesmoke;
+}
+
+.Our_Services {
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services_location {
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#burger-checkbox {
+  display: none;
+}
+
+.header-logo {
+  font-size: 27px;
+}
+
+@media (min-width: 700px) {
+  .burger-icon {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-nav_menu {
+    display: none;
+  }
+}
+
+/* @media (min-width: 700px) {
+  .header-logo {
+    width: 10px;
+  }
+} */
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.services_location {
+  border: 2px solid;
+
+  background-color: pink;
+  padding: 27px;
+}
+
+.services_img {
+  margin: 57px;
+}
+
+@media (min-width: 640px) {
+  .services_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+@media (min-width: 860px) {
+  .services_img {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.footer_contacts {
+  text-align: center;
+  color: palevioletred;
+}
+
+.form {
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color: whitesmoke;
+  margin: 55px;
+  border: 2px solid;
+}
